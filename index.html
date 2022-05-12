@@ -1,52 +1,528 @@
 <!DOCTYPE html>
-<html class="full" lang="en">
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title>PrimSite - Creare site de promovare pentru afacerea ta</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
+  <title>PrimSite - Creare site de prezentare pentru afacerea ta</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta name="description"
+    content="Fiecare afacere de success are nevoie de un site de prezentare profesional, ușor de folosit, simplu și rapid. Comandă site-ul tau acum!">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+    rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/animate/animate.min.css" rel="stylesheet">
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
-  <div id="preloader">
-    <div id="status"> <img src="img/preloader.gif" height="64" width="64" alt=""> </div>
-  </div>
-  <div class="coming-soon">
+
+  <!--==========================
+  Header
+  ============================-->
+  <header id="header" class="fixed-top">
     <div class="container">
-      <div class="logo">PrimSite</div>
-      <h2>We are currently working on<br>
-        a brand new website. Stay tuned!</h2>
-      <p class="tleft">Time left until launching</p>
-      <div class="counter">
-        <div class="days-wrapper"> <span class="days">10</span> <br>
-          days </div>
-        <div class="hours-wrapper"> <span class="hours">12</span> <br>
-          hours </div>
-        <div class="minutes-wrapper"> <span class="minutes">22</span> <br>
-          minutes </div>
-        <div class="seconds-wrapper"> <span class="seconds">36</span> <br>
-          seconds </div>
+
+      <div class="logo float-left">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <h1 class="text-light"><a href="#header"><span>PrimSite</span></a></h1> -->
+        <a href="#intro" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a>
       </div>
 
-      <div class="copyright">&copy; 2021 PrimSite</div>
+      <nav class="main-nav float-right d-none d-lg-block">
+        <ul>
+          <li><a href="#about">Descriere</a></li>
+          <li><a href="#services">Ofertă și preț</a></li>
+          <li><a href="#why-us">De ce eu?</a></li>
+          <li><a href="#portfolio">Exemple</a></li>
+          <li><a href="#testimonials">Recenzii</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav><!-- .main-nav -->
+
     </div>
-  </div>
-  <!-- Javascript -->
-  <script src="js/jquery.1.11.1.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/jquery.countdown.js"></script>
-  <script src="js/custom.js"></script>
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+  <section id="intro" class="clearfix">
+    <div class="container">
+
+      <div class="intro-img">
+         <!-- <img src="img/intro-img.svg" alt="" class="img-fluid"> -->
+         <img src="img/responsive-design.gif" alt="" class="img-fluid">
+      </div>
+
+      <div class="intro-info">
+        <h2>Realizez <u>site-ul ideal</u><br>pentru succesul
+          afacerii tale!</h2>
+        <h6 style="font-weight: bold;color: white;">SIMPLU, IEFTIN, RAPID</h6>
+        <div>
+          <div class="btn-get-started" style="margin-right: 0;"><i class="fa fa-phone fa-lg"></i> <span class="olf sunapeeu">567</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    <!--==========================
+      About Us Section
+    ============================-->
+    <section id="about">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Cum arată un site web de prezentare?</h3>
+          <p>Fiecare site de prezentare cuprinde o singură pagină web cu un design modern, foarte bine structurată și adaptabilă la toate dimensiunile de ecran.
+             Secțiunile de bază ale unui site web de prezentare sunt cele enumerate mai jos, iar site-ul tău poate include chiar mai multe secțiuni.
+          </p>
+        </header>
+
+        <div class="row about-container">
+
+          <div class="col-lg-6 content order-lg-1 order-2">
+
+            <div class="icon-box wow fadeInUp">
+              <div class="icon"><i class="fa fa-info"></i></div>
+              <h4 class="title"><a href="">Descrierea afacerii</a></h4>
+              <p class="description">Poate cuprinde o scurta introducere, istoricul companiei, un slogan, un panou, etc.</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="icon"><i class="fa fa-list"></i></div>
+              <h4 class="title"><a href="">Lista cu servicii si prețuri</a></h4>
+              <p class="description">Afișarea unei liste care să descrie serviciile pe care le prestezi împreună cu prețurile lor.</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="icon"><i class="fa fa-th-large"></i></div>
+              <h4 class="title"><a href="">Portofoliu</a></h4>
+              <p class="description">Realizările afacerii tale inspiră profesionalism, seriozitate și încredere potențialilor clienți.</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.6s">
+              <div class="icon"><i class="fa fa-pencil"></i></div>
+              <h4 class="title"><a href="">Testimoniale și recenzii</a></h4>
+              <p class="description">Se spune că un client mulțumit valorează mai mult decât o întreagă campanie publicitară.</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="0.8s">
+              <div class="icon"><i class="fa fa-users"></i></div>
+              <h4 class="title"><a href="">Membrii echipei</a></h4>
+              <p class="description">Enumerarea celor mai importanți membri din echipa companiei tale, acolo unde este cazul.</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="1.0s">
+              <div class="icon"><i class="fa fa-apple"></i></div>
+              <h4 class="title"><a href="">Clienții firmei</a></h4>
+              <p class="description">Afișarea unei liste cu actualii (sau foștii) clienți aduce un plus de încredere afacerii tale.</p>
+            </div>
+
+            <div class="icon-box wow fadeInUp" data-wow-delay="1.2s">
+              <div class="icon"><i class="fa fa-envelope-o"></i></div>
+              <h4 class="title"><a href="">Date de contact</a></h4>
+              <p class="description">Sediul firmei, adresa de e-mail, numărul de telefon, persoana de contact, orele de lucru, etc.</p>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src="img/wireframe.gif" class="img-fluid" alt="">
+          </div>
+        </div>
+
+      </div>
+    </section><!-- #about -->
+
+    <!--==========================
+      Services Section
+    ============================-->
+    <section id="services" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Ce îți ofer?</h3>
+          <p>O pagină web de prezentare completă, personalizată, profesională și adaptabilă la toate dispozitivele mobile și fixe.</p>
+        </header>
+
+        <div class="row">
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-world" style="color: #ff689b;"></i></div>
+              <h4 class="title">Domeniu .ro</h4>
+              <p class="description">Alegem impreună cel mai bun nume pentru site-ul tău de prezentare dacă nu l-ai ales deja.</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-lock-combination" style="color: #41cf2e;"></i></div>
+              <h4 class="title">Site securizat HTTPS</h4>
+              <p class="description">Noul tău website va fi protejat impotriva hackerilor și a virușilor cu un certificat SSL.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-filing" style="color: #4680ff;"></i></div>
+              <h4 class="title">Găzduire online</h4>
+              <p class="description">Site-ul tău de prezentare beneficiază de un pachet de găzduire foarte generos (până la 10.000 de accesări lunar).</p>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.1s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-wand" style="color:#A020F0;"></i></div>
+              <h4 class="title">Temă personalizată</h4>
+              <p class="description">Aleg tema ideală pentru site-ul tău de prezentare, apoi o personalizez și o adjustez de câte ori este nevoie.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-lightbulb" style="color: #fff021;"></i></div>
+              <h4 class="title">Creare logo</h4>
+              <p class="description">Dacă nu ai deja unul, iți creez un logo simplu și ușor de reținut care să reprezinte perfect viziunea afacerii tale.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-location" style="color: #1fc5ea;"></i></div>
+              <h4 class="title">Poziționare Google Maps</h4>
+              <p class="description">Adaug noul tău website in bazele de date <em>Google My Business</em> și <em>Google Maps</em> pentru a putea fi ușor de găsit.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 offset-lg-1 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-ios-flower-outline" style="color: #ff2ffc;"></i></div>
+              <h4 class="title">Fără cookie-uri</h4>
+              <p class="description">Noul tău site de prezentare nu necesita pop-up-uri enervante și banere inutile pentru că nu stochează nici un fel de date.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-5 wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+            <div class="box">
+              <div class="icon"><i class="ion-help-buoy" style="color: #000000;"></i></div>
+              <h4 class="title">Suport complet</h4>
+              <p class="description">Iți ofer suport tehnic pe toată durata colaborării. Toate modificările ulterioare publicării site-ului tău sunt prompte și gratuite.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <header class="section-header wow bounceInUp" data-wow-delay="0.2s" data-wow-duration="1.4s">
+          <h3><b>Preț fix <span style="background-color: #004a99; color: white">500 RON / an</span></b></h3>
+          <p>Cel mai mic preț, garantat. Sub 42 RON / lună.</p>
+        </header>
+
+      </div>
+    </section><!-- #services -->
+
+    <!--==========================
+      Why Us Section
+    ============================-->
+    <section id="why-us" class="wow fadeIn">
+      <div class="container">
+        <header class="section-header">
+          <h3>De ce să lucrezi cu mine?</h3>
+          <p><b>Pentru că lucrez la fiecare proiect exact așa cum aș lucra pentru mine. O fac din pasiune, sunt perfecționist, și îmi dedic tot timpul proiectului tău.</b></p>
+        </header>
+
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+              <i class="fa fa-coffee"></i>
+              <div class="card-body">
+                <h5 class="card-title">Super-simplu</h5>
+                <p class="card-text">Iei o pauză de cafea să discutăm detaliile colaborării noastre. Nu durează mai mult de 10 minute.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+              <i class="fa fa-money"></i>
+              <div class="card-body">
+                <h5 class="card-title">Mega-ieftin</h5>
+                <p class="card-text">Plătești un <b>abonament anual de doar 500 RON</b>, ceea ce înseamnă mai puțin de 42 RON pe lună.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+              <i class="fa fa-rocket"></i>
+              <div class="card-body">
+                <h5 class="card-title">Ultra-rapid</h5>
+                <p class="card-text">Trimiți o descriere a afacerii tale alături de câteva poze dacă este cazul și în urmatoarea zi site-ul este gata.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+<!--
+        <div class="row counters">
+
+          <div class="col-lg-4 col-4 text-center">
+            <span data-toggle="counter-up">14</span>
+            <p>Clienți mulțumiți</p>
+          </div>
+
+          <div class="col-lg-4 col-4 text-center">
+            <span data-toggle="counter-up">18</span>
+            <p>Site-uri realizate</p>
+          </div>
+
+          <div class="col-lg-4 col-4 text-center">
+            <span data-toggle="counter-up">624</span>
+            <p>Ore muncite</p>
+          </div>
+
+        </div>
+-->
+      </div>
+    </section>
+
+    <!--==========================
+      Portfolio Section
+    ============================-->
+    <section id="portfolio" class="clearfix">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 class="section-title">Ultimele site-uri web realizate</h3>
+        </header>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>PrimSite</h4>
+                <p>primsite.ro</p>
+                <div>
+                  <a href="img/portfolio/3.jpg" data-lightbox="portfolio" data-title="PrimSite" class="link-preview"
+                    title="Vizualizeaza imaginea"><i class="ion ion-eye"></i></a>
+                  <a href="https://primsite.ro" target="blank" class="link-details" title="Viziteaza site-ul"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Garten Design Resiga</h4>
+                <p>gartendesignresiga.at</p>
+                <div>
+                  <a href="img/portfolio/2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Garten Design Resiga"
+                    title="Vizualizeaza imaginea"><i class="ion ion-eye"></i></a>
+                  <a href="https://gartendesignresiga.at/" target="blank" class="link-details" title="Viziteaza site-ul"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Adrian Garten</h4>
+                <p>adriangarten.at</p>
+                <div>
+                  <a href="img/portfolio/1.jpg" data-lightbox="portfolio" data-title="Adrian Garten" class="link-preview"
+                    title="Vizualizeaza imaginea"><i class="ion ion-eye"></i></a>
+                  <a href="http://www.adriangarten.at/" target="blank" class="link-details" title="Viziteaza site-ul"><i class="ion ion-android-open"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- #portfolio -->
+
+
+
+    <!--==========================
+      Testmonials
+    ============================-->
+    <section id="testimonials" class="section-bg">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>Ce spun clienții</h3>
+        </header>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+
+            <div class="owl-carousel testimonials-carousel wow fadeInUp">
+    
+              <div class="testimonial-item">
+                <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
+                <h3>Adrian</h3>
+                <h4>adriangarten.at</h4>
+                <p>
+                  Colaborez de câțiva ani cu Florin de la PrimSite și sunt foarte mulțumit. Site-ul firmei mele e o grijă în minus pentru mine pentru că știu că este pe mâinile cele mai bune.
+                </p>
+              </div>
+    
+              <div class="testimonial-item">
+                <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
+                <h3>Delia</h3>
+                <h4>gartendesignresiga.at</h4>
+                <p>
+                  Am descoperit PrimSite prin intermediul unui coleg de lucru. Pot spune că a fost cea mai simplă colaborare. Și am și avut site-ul publicat in 2 zile. Recomand!
+                </p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+    </section><!-- #testimonials -->
+
+
+
+    <!--==========================
+      Contact Section
+    ============================-->
+    <section id="contact">
+      <div class="container">
+
+        <div class="section-header">
+          <h3>Contactează-mă</h3>
+          <p style="color:white;padding-bottom: 20px;">Bună, eu sunt <b>Florin</b>, web developer-ul din spatele proiectului <b>PrimSite</b>.<br>
+          Mă găsești atât pe <b>email</b> cât și la <b>telefon</b> sau pe <b>WhatsApp</b>.</p>
+        </div>
+
+        <div class="row justify-content-lg-center">
+
+          <div class="col-lg-6">
+            <div class="row text-center">
+              <div class="col-md-6 info">
+                  <i class="ion-ios-email-outline" title="Email"></i>
+                  <div><span class="atin plicscrisoare">amg</span></div>
+              </div>
+
+              <div class="col-md-6 info">
+                  <i class="ion-ios-telephone-outline" title="Telefon"></i>
+                  <div><span class="olf sunapeeu">567</span></div>
+              </div>
+
+              <div class="col-md-12">
+                <p>Mă poți contacta și pentru alte servicii web cum ar fi:</p>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row row-eq-height justify-content-center">
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+              <i class="fa fa-desktop"></i>
+              <div class="card-body">
+                <h5 class="card-title">Redesign site</h5>
+                <p class="card-text">Modernizarea unui website cu un design învechit.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+              <i class="fa fa-wordpress"></i>
+              <div class="card-body">
+                <h5 class="card-title">Site WordPress</h5>
+                <p class="card-text">Crearea unui website complex cu funcționalități și pagini multiple.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-4">
+            <div class="card wow bounceInUp">
+              <i class="fa fa-mobile"></i>
+              <div class="card-body">
+                <h5 class="card-title">Aplicație mobilă</h5>
+                <p class="card-text">Dezvoltarea unei aplicații mobile atât pentru iOS cât și pentru Android.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+
+
+
+      </div>
+
+    </section><!-- #contact -->
+
+  </main>
+
+  <!--==========================
+    Footer
+  ============================-->
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">
+        &copy;
+        <script>document.write(new Date().getFullYear())</script> <strong>PrimSite - </strong>
+        <a href="https://primsite.ro/" target="_blank" class="creat-de">Creat de PrimSite</a>
+      </div>
+    </div>
+  </footer><!-- #footer -->
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <!-- Uncomment below if you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/mobile-nav/mobile-nav.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
 </body>
 
 </html>
